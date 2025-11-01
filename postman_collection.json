@@ -1,0 +1,9 @@
+{
+  "info": { "name": "Credit Approval API", "_postman_id": "credit-approval-demo", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    { "name": "Import data", "request": { "method": "POST", "header": [], "body": { "mode": "raw", "raw": "" }, "url": { "raw": "http://127.0.0.1:8000/api/customers/import_data/", "protocol": "http", "host": ["127.0.0.1"], "port": "8000", "path": ["api", "customers", "import_data", ""] } }, "response": [] },
+    { "name": "List customers", "request": { "method": "GET", "header": [], "url": { "raw": "http://127.0.0.1:8000/api/customers/", "protocol": "http", "host": ["127.0.0.1"], "port": "8000", "path": ["api", "customers", ""] } }, "response": [] },
+    { "name": "List loans", "request": { "method": "GET", "header": [], "url": { "raw": "http://127.0.0.1:8000/api/loans/", "protocol": "http", "host": ["127.0.0.1"], "port": "8000", "path": ["api", "loans", ""] } }, "response": [] },
+    { "name": "List approvals", "request": { "method": "GET", "header": [], "url": { "raw": "http://127.0.0.1:8000/api/approvals/", "protocol": "http", "host": ["127.0.0.1"], "port": "8000", "path": ["api", "approvals", ""] } }, "response": [] }
+  ]
+}
