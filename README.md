@@ -33,5 +33,5 @@ This project analyzes customer loan histories and new transactions to automatica
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/credit_approval_system.git
+   git clone https://github.com/DivyaS2506/credit_approval_system.git
    cd credit_approval_system
